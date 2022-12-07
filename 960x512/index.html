@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Last-Modified" content="0">
+	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>Población Mundial 960x512</title>
+	<link rel="stylesheet" href="css/gotham-bold.css">
+	<!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/trueno" type="text/css"/> -->
+	<link rel="shortcut icon" href="imagenes/population_jpg.jpg">
+	<script src="jquery.mobile-1.4.5/demos/js/jquery.js"></script>
+	<script src="jquery.mobile-1.4.5/demos/js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/calculos.js"></script>
+	<style>
+		body {
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+			border: none;
+			width: 960;
+			height: 256;
+			font-family: 'Gotham';
+			font-weight: 400;
+			font-style: normal;
+		}
+		#master{
+			position:relative;
+			top:0;
+			left:0;
+			right:0;
+			margin: 0 auto;
+			width: 100%;
+			color:  white;
+			font-size: 630%;
+		}
+		#poblacion{
+			overflow: hidden;
+			position: absolute;
+			top: 220px;
+			left: 0px;
+			width: 960px;
+			height: 200px;
+			vertical-align: middle;
+			text-align: center;			
+		}
+	</style>
+</head>
+<body>
+<div id="master">
+<video id="mivideo" name="mivideo" src="video/Crono población mundial 960x512.webm" loop="true" autoplay="true" muted="muted" visibility="hidden"></video>
+<div id='campopoblacion'>
+	<span id="poblacion" name="poblacion">0.000.000.000</span>
+</div>
+</div><!-- /page -->
+</body>
+</html>
