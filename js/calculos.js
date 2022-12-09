@@ -1,3 +1,4 @@
+//Calculo de la población mundial dado la hora y fecha actual
 $(document).ready(function() {
     var valor = 0;
     document.getElementById("poblacion").style.visibility = "hidden";
@@ -6,7 +7,7 @@ $(document).ready(function() {
     function manipuloTextos2(){
         if(video.currentTime >= 3 && video.currentTime < 9){
             document.getElementById("poblacion").style.visibility = "visible";
-            const dateToday = new Date() // Mon Jun 08 2020 16:47:55 GMT+0800 (China Standard Time)
+            const dateToday = new Date();
             currentEpoch = epoch(dateToday);
             //console.log(currentEpoch);
             difference = currentEpoch - 1669993146000;
